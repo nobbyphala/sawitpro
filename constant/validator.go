@@ -1,0 +1,26 @@
+package constant
+
+var SpecialCharacter = map[rune]bool{
+	'~': true,
+	'!': true,
+	'@': true,
+	'#': true,
+	'$': true,
+	'%': true,
+	'^': true,
+	'&': true,
+	'*': true,
+	'(': true,
+	')': true,
+	'-': true,
+	'_': true,
+	'=': true,
+	'+': true,
+	'[': true,
+	']': true,
+	'{': true,
+	'}': true,
+	'|': true,
+	';': true,
+	':': true,
+}
